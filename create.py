@@ -29,6 +29,11 @@ print('''
         {listStr}
     </ol>
     <a href="create.py">create</a>
+    <form action="process_create.py" method="POST">
+        <p><input type="text" name="title" placeholder="title"></p>
+        <p><textarea rows="4" name="description" placeholder="description"></textarea></p>
+        <p><input type="submit"></p>
+    </form>
     <h2>{title}</h2>
     <P>{desc}</P>
 </body>
