@@ -2,10 +2,6 @@
 print("content-type: text/html; charset=utf-8\n")
 print()
 import cgi
-
-form = cgi.FieldStorage()
-pageId = form["id"].value
-
 pageId = 'Welcome'
 
 print('''
